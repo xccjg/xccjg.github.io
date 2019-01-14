@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0021)./ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head profile="http://gmpg.org/xfn/11"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+
+<title>新创城有限公司 - 专业注塑机T型槽加工</title>
+ <!-- leave this for stats -->
+<link rel="shortcut icon" href="./favicon.ico">
+
+<link rel="pingback" href="./xmlrpc.php">
+<link rel="stylesheet" type="text/css" href="./css/style.css" media="screen">
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript">
+	// Navigation Menu
+	$(function() {
+		$(".menu ul").css({display: "none"}); // Opera Fix
+		$(".menu li:first").addClass("homepage");
+		$(".menu li").hover(function(){
+			$(this).find('ul:first').css({visibility: "visible",display: "none"}).slideDown("normal");
+		},function(){
+			$(this).find('ul:first').css({visibility: "hidden"});
+		});
+	});
+
+	// Bookmark
+	function bookmark(title, url) {
+	  if (document.all)
+		window.external.AddFavorite(url, title);
+	  else if (window.sidebar)
+		window.sidebar.addPanel(title, url, "")
+}
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="./xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="./wp-includes/wlwmanifest.xml"> 
+
+</head>
+<body>
+<!-- Wrapper Begin-->
+    <div class="wrapper">
+    <!-- Header Begin-->
+    <div class="header">
+        <!-- Logo Begin-->
+        <h1 class="logo">
+            <a href="./" title="专业注塑机T型槽加工">新创城有限公司</a>
+        </h1>
+        <!-- Logo end-->
+        <!-- Header Right Begin-->
+        <div class="headerR">
+            <!-- Mini Function Begin-->
+            <div class="mini_func">
+                <a href="./#" onclick="this.style.behavior=&#39;url(#default#homepage)&#39;;this.setHomePage(&#39;https://www.xccjg.com&#39;);" class="homepage">设为首页</a><a href="./#" onclick="javascript:bookmark(&#39;新创城有限公司&#39;,&#39;https://www.xccjg.com&#39;);" target="_blank" class="favicon">加为收藏</a>
+            </div>
+            <!-- Mini Function end-->
+            <div class="clear"></div>
+            <!-- Search Begin-->
+            <div class="search">
+            <form method="get" id="searchform" action="./">
+   <input class="searchInput" type="text" value="输入关键字" name="s" id="s">
+   <input class="searchBtn" type="submit" id="searchsubmit" title="搜索" value="">
+</form>
+<script type="text/javascript">
+	$(document).ready(function(){				   
+		// 当鼠标聚焦在搜索框
+		$('#s').focus(
+			function() {
+				if($(this).val() == '输入关键字') {
+					$(this).val('').css({color:"#454545"});
+				}
+			}
+		// 当鼠标在搜索框失去焦点
+		).blur(
+			function(){
+				if($(this).val() == '') {
+					$(this).val('输入关键字').css({color:"#333333"});
+				}
+			}
+		);
+	});
+</script>            </div>
+            <!-- Search end-->
+        </div>
+        <!-- Header Right end-->
+        <div class="clear"></div>
+            <!-- Main Menu Begin-->
+            <div class="navigation">
+            	                    <ul class="menu">
+                        <li class="homepage current_page_item"><a href="./" title="新创城有限公司">首 页</a></li>
+                                                    	<li class="cat-item cat-item-1"><a href="./news.htm" title="新闻动态">新闻动态</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="./products.htm" title="产品中心">产品中心</a>
+</li>
+                            <li class="page_item page-item-5"><a href="./about-us.htm">关于我们</a></li>
+<li class="page_item page-item-7"><a href="./contact-us.htm">联系我们</a></li>
+                                            </ul>
+                            </div>
+            <!-- Main Menu end-->
+    </div>
+    <!-- Header end-->	<!-- Slideshow Begin-->
+      	<div class="slideshow" id="slideshow"> 
+            <div id="showimg">
+        	             
+        							<a href="./page-10.htm" title="欢迎来到新创城有限公司"><img class="attachment-small" src="./images/default-banner.jpg" title="欢迎来到新创城有限公司" alt="欢迎来到新创城有限公司"></a>
+				                    </div>
+        <div class="opacity"></div>
+        <div class="operate" id="operate">
+        	<!--<span class="hov">1</span><span>2</span><span>3</span><span>4</span><span>5</span>-->
+        </div>
+        <ul id="msg">
+        	    
+            	<li><a href="./page-10.htm">欢迎来到新创城有限公司</a></li>
+                    </ul>
+        
+    </div>
+
+<script language="javascript">
+$(function(){
+	 var index = 0;
+	 $("#operate span").mouseover(function(){
+		index  =  $("#operate span").index(this);
+		showImg(index);
+	});	
+	 //滑入 停止动画，滑出开始动画.
+	 $('#slideshow').hover(function(){
+			  if(MyTime){
+				 clearInterval(MyTime);
+			  }
+	 },function(){
+			  MyTime = setInterval(function(){
+			    showImg(index)
+				index++;
+				if(index==5){index=0;}
+			  } , 3000);
+	 });
+	 //自动开始
+	 var MyTime = setInterval(function(){
+		showImg(index)
+		index++;
+		if(index==5){index=0;}
+	 } , 3000);
+})
+//关键函数：通过控制i ，来显示不通的幻灯片
+function showImg(i){
+		$("#showimg img")
+			.eq(i).stop(true,true).fadeIn(1000)
+			.parent().siblings().find("img").hide();
+		$("#msg li")
+			.eq(i).stop(true,true).fadeIn(1000)
+			.siblings().hide();
+		 $("#operate span")
+			.eq(i).addClass("hov")
+			.siblings().removeClass("hov");
+}
+</script> 
+    <!-- Slideshow end-->
+    <div class="clear"></div>
+    <!-- Featured Begin-->
+    <div class="featured">
+    	<div class="containerTop"></div>
+        <div class="containerContent homeContent">
+            	<!-- News Begin-->
+       	<div class="news">
+       		<h2>
+                                	               	                                <a href="./news.htm" title="新闻动态">新闻动态</a>
+                <span><a href="./news.htm" title="新闻动态">更多&gt;&gt;</a></span>
+            </h2>
+                                                            <ul>
+                                                    <li><a href="./page-124.htm" title="注塑机的调机方法与技巧">注塑机的调机方法与技巧</a><span>2012-11-15</span></li>
+                                                    <li><a href="./page-122.htm" title="注塑机知识原理及保养">注塑机知识原理及保养</a><span>2012-11-15</span></li>
+                                                    <li><a href="./page-120.htm" title="如何选择注塑机">如何选择注塑机</a><span>2012-11-15</span></li>
+                                                    <li><a href="./page-117.htm" title="注塑机模板改T型槽设备（现场改造无需拆卸模板）">注塑机模板改T型槽设备（现场改造无需拆卸模板）</a><span>2012-11-15</span></li>
+                                                    <li><a href="./page-98.htm" title="T型槽用螺栓">T型槽用螺栓</a><span>2011-08-24</span></li>
+                                                    <li><a href="./page-96.htm" title="T型槽铣刀">T型槽铣刀</a><span>2011-08-24</span></li>
+                                                    <li><a href="./page-94.htm" title="T型槽平台技术参数">T型槽平台技术参数</a><span>2011-08-24</span></li>
+                                                    <li><a href="./page-89.htm" title="塑料注塑机加工过程中不关模的原因">塑料注塑机加工过程中不关模的原因</a><span>2011-08-15</span></li>
+                                                    <li><a href="./page-87.htm" title="注塑机的T型槽结构">注塑机的T型槽结构</a><span>2011-08-15</span></li>
+                                                    <li><a href="./page-72.htm" title="注塑机T型槽用处">注塑机T型槽用处</a><span>2011-08-08</span></li>
+                                                    <li><a href="./page-47.htm" title="使用注塑机T型槽加工的优点">使用注塑机T型槽加工的优点</a><span>2011-08-07</span></li>
+                                                </ul>
+                    	</div>
+        <!-- News end-->
+                <!-- Products Begin -->
+       	<div class="products">
+        			<h2>
+                    							                                                            <a href="./products.htm" title="产品中心">产品中心</a>
+                    <span><a href="./products.htm" title="产品中心">更多&gt;&gt;</a></span>
+                    </h2>
+                                        	                        <ul>
+                                                    <li>
+                                									<a href="./page-38.htm" title="T型槽加工现场5"><img class="attachment-small" src="./images/DSC00047-300x224.jpg" title="T型槽加工现场5" alt="T型槽加工现场5"></a>
+								                        
+                                <a href="./page-38.htm" title="T型槽加工现场5" class="product_name">T型槽加工现场5</a>
+                            </li>
+                                                    <li>
+                                									<a href="./page-34.htm" title="T型槽加工现场4"><img class="attachment-small" src="./images/DSC00041-300x224.jpg" title="T型槽加工现场4" alt="T型槽加工现场4"></a>
+								                        
+                                <a href="./page-34.htm" title="T型槽加工现场4" class="product_name">T型槽加工现场4</a>
+                            </li>
+                                                    <li>
+                                									<a href="./page-31.htm" title="T型槽加工现场3"><img class="attachment-small" src="./images/DSC00036-300x224.jpg" title="T型槽加工现场3" alt="T型槽加工现场3"></a>
+								                        
+                                <a href="./page-31.htm" title="T型槽加工现场3" class="product_name">T型槽加工现场3</a>
+                            </li>
+                                                    <li>
+                                									<a href="./page-28.htm" title="T型槽加工现场2"><img class="attachment-small" src="./images/20110702040-225x300.jpg" title="T型槽加工现场2" alt="T型槽加工现场2"></a>
+								                        
+                                <a href="./page-28.htm" title="T型槽加工现场2" class="product_name">T型槽加工现场2</a>
+                            </li>
+                                                </ul>
+                       	</div>
+        <!-- Products end-->
+        <!-- Profile Begin -->
+       	<div class="profile">
+        			<h2>
+                    	                            <a href="./about-us.htm">
+                                                                            企业简介</a>
+                                                <span>
+                                                    <a href="./about-us.htm">
+                                                    更多&gt;&gt;</a>
+                        </span>
+                    </h2>	
+                    <div class="about-us">
+                    	<div>
+                    								本公司專業注塑機、合金機、五金機、T型槽加工。<br>以前，多數注塑機公司使用螺孔固定，注塑機模板因螺孔磨損的原因每隔1-2不得不重新制作（加大）螺孔、螺絲、螺絲扣，都得重新制作，帶來很多不便，使用普通的螺絲，更換一個模具，至少也得花費2-3個小時，不但損失時間，還給人力、效益方面都帶來很大損失。<br>  本公司新開發制作了在注塑模板上直接加工T型槽的機械。<br>     1）T型加工機是不必分解模板在原狀態下直接加工。<br>     2）用T型槽加工的話不必繼續重新制作螺孔，直到機械支報廢為止，而T型加工費低於重新螺孔的價格。<br>    3）節約模型時間3小時，在開重機器生產時，防止模具落地危險性。<br>  小型200T以下換模一次可以縮短2小時，200T以上換模一次可以縮短3-4小時，加工T型槽，另有T型槽螺絲，螺帽配套發售。<br>						                        <div class="clear"></div>
+                    	</div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+    	</div>
+        <!-- Profile end-->
+    	</div>
+    </div>
+    <!-- Featured end-->
+</div>
+<!-- Wrapper end-->
+<div class="clear"></div>
+    <!-- BlogRoll begin -->
+    <div class="friendlink">
+        <h3>友情链接</h3>
+        <ul>
+            <li><a href="http://www.google.com/" title="谷歌" target="_blank">www.google.com</a></li>
+        </ul>
+    </div>
+    <!-- BlogRoll end -->
+<!-- Footer Begin-->
+<div class="footer">
+	<ul class="footpage">
+        <li class="nb"><a href="./">首页</a></li>
+        <li class="page_item page-item-7"><a href="./contact-us.htm">联系我们</a></li>
+<li class="page_item page-item-5"><a href="./about-us.htm">关于我们</a></li>
+    </ul>
+   	        本公司專業<a href="./" title="注塑機">注塑機</a>、<a href="./" title="合金機">合金機</a>、<a href="./" title="五金機">五金機</a>、<a href="./" title="T型槽加工">T型槽加工</a>。        </div>
+<!-- Footer end-->
+
+</body></html>
